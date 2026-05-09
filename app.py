@@ -184,4 +184,4 @@ if __name__ == "__main__":
     print("\n" + "="*60)
     print("Launching Web App... Open the Local URL shown below in your browser.")
     print("="*60 + "\n")
-    demo.launch(server_name="0.0.0.0", server_port=7861, share=False)
+    demo.launch(server_name="0.0.0.0", share=False)
