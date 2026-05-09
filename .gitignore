@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints and large models
+*.pth
+*.pt
+*.pkl
+encoder_best.pth
+ffhq.pkl
+
+# Datasets and archives
+archive/
+img_align_celeba/
+*.zip
+*.crdownload
+test_face.jpg
+test_image.png
+test_image.jpg
+reconstruction_result.png
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+miniconda3/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# StyleGAN2 repository (optional if you want to keep your repo clean)
+stylegan2-ada-pytorch/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
